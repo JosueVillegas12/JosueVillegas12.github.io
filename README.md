@@ -9,9 +9,10 @@
 
 ## Before publishing, replace the placeholders
 
-- `assets/intro.mp4` — your introduction video (or swap the `<video>` tag in `index.html` for a YouTube/Drive embed if the file is too large for GitHub).
-- `assets/video-poster.jpg` — a still image shown before the video plays.
+- `assets/profile.jpg` — your photo, shown in the hero section.
 - `assets/josue-villegas-cv.pdf` — your CV, once you export it as a PDF.
+
+The introduction video is already embedded from YouTube, no local video file needed.
 
 ## Local preview
 
