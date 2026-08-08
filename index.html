@@ -19,13 +19,13 @@
       <span></span><span></span><span></span>
     </button>
     <nav class="site-nav" id="siteNav">
-      <a href="#introduction"><span class="num">01</span> introduction</a>
-      <a href="#about"><span class="num">02</span> about</a>
-      <a href="#cv"><span class="num">03</span> cv</a>
-      <a href="#projects"><span class="num">04</span> projects</a>
-      <a href="#skills"><span class="num">05</span> skills</a>
-      <a href="#certifications"><span class="num">06</span> certifications</a>
-      <a href="#contact"><span class="num">07</span> contact</a>
+      <a href="#introduction"><span class="num">01</span> Introduction</a>
+      <a href="#about"><span class="num">02</span> About</a>
+      <a href="#cv"><span class="num">03</span> CV</a>
+      <a href="#projects"><span class="num">04</span> Projects</a>
+      <a href="#skills"><span class="num">05</span> Skills</a>
+      <a href="#certifications"><span class="num">06</span> Certifications</a>
+      <a href="#contact"><span class="num">07</span> Contact</a>
     </nav>
   </div>
 </header>
@@ -38,24 +38,24 @@
       <path d="M 40 30 C 100 10, 160 60, 140 120 S 220 180, 200 240" fill="none" stroke="#2A2A28" stroke-width="1.4"/>
       <path d="M 180 10 C 160 60, 220 90, 190 150" fill="none" stroke="#2E4A41" stroke-width="1.4"/>
     </svg>
-    <div class="hero-grid">
-      <div>
-        <h1 class="hero-title"><span class="accent">Josue</span><br /><span>\Villegas</span></h1>
-        <p class="hero-tagline">Software Development student building real backend systems with Django, Flutter and MySQL.</p>
-        <div class="btn-row">
-          <a href="#projects" class="btn btn-solid">See projects →</a>
-          <a href="#contact" class="btn btn-outline">Get in touch →</a>
+    <div class="hero-top">
+      <h1 class="hero-title"><span class="accent">Josue</span><br /><span>\Villegas</span></h1>
+      <div class="hero-side">
+        <div class="hero-photo">
+          <img src="assets/profile.jpg" alt="Josue Villegas" />
         </div>
+        <p class="hero-tagline">Software Development student building real backend systems with Django, Flutter and MySQL.</p>
       </div>
-      <div class="hero-photo">
-        <img src="assets/profile.jpg" alt="Josue Villegas" />
-      </div>
+    </div>
+    <div class="btn-row">
+      <a href="#projects" class="btn btn-solid">See projects →</a>
+      <a href="#contact" class="btn btn-outline">Get in touch →</a>
     </div>
   </section>
 
   <!-- INTRODUCTION VIDEO -->
   <section id="introduction" class="section wrap">
-    <span class="section-label">01 — introduction</span>
+    <span class="section-label">01 — Introduction</span>
     <h2 class="section-title">A quick hello</h2>
     <p class="section-lede">A short video on who I am, what I've built, and what I'm looking for next.</p>
     <div class="video-frame">
@@ -72,7 +72,7 @@
     <svg class="about-lines" viewBox="0 0 220 220" aria-hidden="true">
       <path d="M 10 100 C 40 60, 20 30, 70 40 S 110 10, 140 30" fill="none" stroke="#2A2A28" stroke-width="1.4"/>
     </svg>
-    <span class="section-label">02 — about</span>
+    <span class="section-label">02 — About</span>
     <h2 class="section-title">A little about me</h2>
     <div class="about-grid">
       <p class="about-text">
@@ -102,7 +102,7 @@
 
   <!-- CV -->
   <section id="cv" class="section wrap">
-    <span class="section-label">03 — cv</span>
+    <span class="section-label">03 — CV</span>
     <h2 class="section-title">Curriculum vitae</h2>
     <p class="section-lede">Education, experience, and skills, in one document.</p>
     <a href="assets/josue-villegas-cv.pdf" class="btn btn-solid" download>Download CV (PDF) ↓</a>
@@ -110,7 +110,7 @@
 
   <!-- PROJECTS -->
   <section id="projects" class="section wrap">
-    <span class="section-label">04 — projects</span>
+    <span class="section-label">04 — Projects</span>
     <h2 class="section-title">Academic projects</h2>
     <div class="project-grid">
       <article class="project-card">
@@ -124,16 +124,18 @@
       <article class="project-card">
         <h3>SIGA</h3>
         <p class="project-stack">Django REST Framework · Flutter · MySQL</p>
-        <p>A web system built with a team to manage customs administration processes, combining a web platform with
-          a mobile app. I contributed to setting up the database, resolving conflicts when multiple team members
-          worked on the same code, and documenting how the system was structured so the whole team could build on it.</p>
+        <p>A web system that simulates real customs administration operations: package registration, required
+          documentation, and pedimento generation, following the process carried out at an actual customs office.
+          Built as a team project. I contributed to setting up the database, resolving conflicts when multiple
+          team members worked on the same code, and documenting how the system was structured so the whole team
+          could build on it.</p>
       </article>
     </div>
   </section>
 
   <!-- SKILLS -->
   <section id="skills" class="section wrap">
-    <span class="section-label">05 — skills</span>
+    <span class="section-label">05 — Skills</span>
     <h2 class="section-title">Skills</h2>
     <div class="skills-grid" id="skillsGrid">
       <div class="flip-card">
@@ -203,7 +205,7 @@
 
   <!-- CERTIFICATIONS -->
   <section id="certifications" class="section wrap">
-    <span class="section-label">06 — certifications</span>
+    <span class="section-label">06 — Certifications</span>
     <h2 class="section-title">Certifications and achievements</h2>
     <ul class="cert-list">
       <li>
@@ -215,7 +217,7 @@
 
   <!-- CONTACT -->
   <section id="contact" class="section wrap contact-section">
-    <span class="section-label">07 — contact</span>
+    <span class="section-label">07 — Contact</span>
     <h2 class="section-title">Let's talk</h2>
     <p class="section-lede">Looking for someone for your team, or want to talk about a project? Reach out.</p>
     <a href="mailto:josu3vhdz04@gmail.com" class="btn btn-solid">josu3vhdz04@gmail.com</a>
