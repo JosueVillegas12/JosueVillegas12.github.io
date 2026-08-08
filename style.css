@@ -143,6 +143,7 @@ a{color:inherit; text-decoration:none;}
   line-height:1;
   letter-spacing:-1px;
   margin:0;
+  text-align:center;
 }
 
 .hero-title .accent{ color:var(--accent); }
@@ -254,15 +255,17 @@ a{color:inherit; text-decoration:none;}
 .video-frame{
   background:var(--surface);
   border-radius:12px;
+  border:1px solid var(--border);
   overflow:hidden;
   max-width:640px;
+  aspect-ratio:16/9;
 }
 
-.video-frame video{
+.video-frame iframe{
   width:100%;
+  height:100%;
   display:block;
-  aspect-ratio:16/9;
-  background:var(--surface);
+  border:0;
 }
 
 /* Projects */
