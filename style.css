@@ -143,7 +143,6 @@ a{color:inherit; text-decoration:none;}
   line-height:1;
   letter-spacing:-1px;
   margin:0;
-  text-align:center;
 }
 
 .hero-title .accent{ color:var(--accent); }
